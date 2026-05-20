@@ -1,87 +1,66 @@
-# Welcome to React Router!
+📄 ResumeIQ
 
-A modern, production-ready template for building full-stack React applications using React Router.
+ResumeIQ is a modern web application designed to help users manage, analyze, and improve their resumes efficiently. Built with a full-stack React Router setup, it focuses on performance, scalability, and a smooth user experience.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+🚀 Features
+⚡ Modern React Router architecture
+🔄 Fast development with Hot Module Replacement (HMR)
+📦 Optimized production builds
+🎨 Styled with Tailwind CSS
+🔒 Type-safe development with TypeScript
+🧠 Resume management and enhancement workflow (customizable features)
+📱 Responsive design for all devices
+🛠️ Tech Stack
+React Router (Full-stack framework)
+TypeScript
+Tailwind CSS
+Node.js
+Vite (build tooling)
+📦 Installation
 
-## Features
+Clone the repository and install dependencies:
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
-
-## Getting Started
-
-### Installation
-
-Install the dependencies:
-
-```bash
+git clone https://github.com/maliaistrying/ResumeIQ.git
+cd ResumeIQ
 npm install
-```
+💻 Development
 
-### Development
+Run the app locally:
 
-Start the development server with HMR:
-
-```bash
 npm run dev
-```
 
-Your application will be available at `http://localhost:5173`.
+Then open:
 
-## Building for Production
-
-Create a production build:
-
-```bash
+http://localhost:5173
+🏗️ Build for Production
 npm run build
-```
+🚀 Deployment
 
-## Deployment
+You can deploy using any platform that supports Node.js or Docker:
 
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
+AWS
+Vercel
+Netlify
+Railway
+Docker
+Docker
+docker build -t resumeiq .
+docker run -p 3000:3000 resumeiq
+📁 Project Structure
+├── app/            # Main application code
+├── public/         # Static assets
+├── build/          # Production build output
 ├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
+└── README.md
+🌱 Future Improvements
+AI-powered resume scoring
+PDF upload & parsing
+Job matching recommendations
+User authentication system
+🤝 Contributing
 
-## Styling
+Pull requests are welcome. For major changes, please open an issue first to discuss what you’d like to change.
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+📄 License
 
----
-
-Built with ❤️ using React Router.
+This project is licensed under the MIT License.
