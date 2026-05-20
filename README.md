@@ -1,66 +1,94 @@
-📄 ResumeIQ
+# 📄 ResumeIQ
 
 ResumeIQ is a modern web application designed to help users manage, analyze, and improve their resumes efficiently. Built with a full-stack React Router setup, it focuses on performance, scalability, and a smooth user experience.
 
-🚀 Features
-⚡ Modern React Router architecture
-🔄 Fast development with Hot Module Replacement (HMR)
-📦 Optimized production builds
-🎨 Styled with Tailwind CSS
-🔒 Type-safe development with TypeScript
-🧠 Resume management and enhancement workflow (customizable features)
-📱 Responsive design for all devices
-🛠️ Tech Stack
-React Router (Full-stack framework)
-TypeScript
-Tailwind CSS
-Node.js
-Vite (build tooling)
-📦 Installation
+---
 
-Clone the repository and install dependencies:
+## 🚀 Features
 
-git clone https://github.com/maliaistrying/ResumeIQ.git
-cd ResumeIQ
+- ⚡ Modern React Router architecture
+- 🔄 Fast development with Hot Module Replacement (HMR)
+- 📦 Optimized production builds
+- 🎨 Styled with Tailwind CSS
+- 🔒 Type-safe development with TypeScript
+- 🧠 Resume management and enhancement workflow
+- 📱 Fully responsive design
+
+---
+
+## 🛠️ Tech Stack
+
+- React Router (Full-stack framework)
+- TypeScript
+- Tailwind CSS
+- Node.js
+- Vite
+
+---
+
+## 📦 Installation
+
+git clone https://github.com/maliaistrying/ResumeIQ.git  
+cd ResumeIQ  
 npm install
-💻 Development
 
-Run the app locally:
+---
+
+## 💻 Development
 
 npm run dev
 
-Then open:
+Open: http://localhost:5173
 
-http://localhost:5173
-🏗️ Build for Production
+---
+
+## 🏗️ Build for Production
+
 npm run build
-🚀 Deployment
 
-You can deploy using any platform that supports Node.js or Docker:
+---
 
-AWS
-Vercel
-Netlify
-Railway
-Docker
-Docker
-docker build -t resumeiq .
+## 🚀 Deployment
+
+You can deploy using:
+- Vercel
+- Netlify
+- AWS
+- Railway
+- Docker
+
+### Docker
+
+docker build -t resumeiq .  
 docker run -p 3000:3000 resumeiq
-📁 Project Structure
-├── app/            # Main application code
-├── public/         # Static assets
-├── build/          # Production build output
-├── package.json
+
+---
+
+## 📁 Project Structure
+
+├── app/  
+├── public/  
+├── build/  
+├── package.json  
 └── README.md
-🌱 Future Improvements
-AI-powered resume scoring
-PDF upload & parsing
-Job matching recommendations
-User authentication system
-🤝 Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you’d like to change.
+---
 
-📄 License
+## 🌱 Future Improvements
 
-This project is licensed under the MIT License.
+- AI-powered resume scoring
+- PDF upload & parsing
+- Job matching system
+- Authentication system
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome. Open an issue first for major changes.
+
+---
+
+## 📄 License
+
+MIT License
